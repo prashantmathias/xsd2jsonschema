@@ -2,7 +2,7 @@
 
 const debug = require('debug')('xsd2jsonschema:XsdFile');
 
-const DOMParser = require('xmldom').DOMParser;
+const DOMParser = require('@xmldom/xmldom').DOMParser;
 const xpathProcessor = require('xpath');
 const URI = require('urijs');
 const XsdAttributes = require('./xsdAttributes');
